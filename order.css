@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(72, 164, 177)
+}
+.heading-container{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+}
+.logo_1{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}.search-container{
+    display: flex;
+    }
+    .search-icon{
+        height: 20px;
+        width: 20px;
+        align-items: center;
+    }
+        .search-container {
+            display: flex;
+            align-items: center;
+            margin: 20px auto;
+            width: 500px;
+        }
+        
+        #search-bar {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            flex: 1;
+        }
+        
+        #search-button {
+            padding: 10px 20px;
+            border: none;
+            background-color: white;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        #search-results {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+        
+        #search-results li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            cursor: pointer;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        #google_translate_element{
+            position: absolute;
+            top: 1;
+            left: 2;
+            right: 0;
+            z-index: 999;
+        }
+        .medicine-card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+          }
+          
+          .medicine-card img {
+            width: 100%;
+            height: 150px; /* Adjust height as needed */
+            object-fit: cover;
+          }
+          
+          .card-content {
+            padding: 15px;
+          }
+          
+          .card-content h3 {
+            font-weight: bold;
+            margin-bottom: 5px;
+          }
+          
+          .availability {
+            display: flex;
+            align-items: center;
+          }
+          
+          .in-stock, .out-of-stock {
+            padding: 5px;
+            font-weight: bold;
+          }
+          
+          .out-of-stock {
+            color: red;
+          }
+          
+          .add-to-cart {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          

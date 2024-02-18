@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <link rel="icon" href="images/stethoscope.png" type="image/x-icon">
+    <title>MEDICO-Order Online</title>
+</head>
+<body>
+    <div class="heading-container">
+        <h1 class="heading">MEDICO</h1>
+        <img src="images/stethoscope.png" class="logo_1">
+        </div >
+        <div id="google_translate_element"></div>
+    <script src="translate.js"></script>
+    <header>
+        <h1>ORDERS</h1>
+        <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search...">
+        <button id="search-button"><img src="images/search.png" class="search-icon"></button>
+        <ul id="search-results"></ul>
+    </div>  
+    </header>
+    <div class="medicine-card">
+        <img src="medicine-image.jpg" alt="Medicine Name">
+        <div class="card-content">
+          <h3>Medicine Name</h3>
+          <p>Description of the medicine and its uses.</p>
+          <div class="availability">
+            <span class="in-stock">In Stock</span>
+            <span class="out-of-stock" style="display: none;">Out of Stock</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <script src="order.js"></script>
+      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

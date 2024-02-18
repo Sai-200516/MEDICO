@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+.card-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="image.jpg" alt="Card Image">
+    <div class="card-content">
+      <h2>Card Title</h2>
+      <p>Card description goes here.</p>
+      <button class="card-button">Learn More</button>
+    </div>
+  </div>
+  <script>
+    // Example: Change card background on hover
+const card = document.querySelector('.card');
+card.addEventListener('mouseover', () => {
+  card.style.backgroundColor = '#f2f2f2';
+});
+
+card.addEventListener('mouseout', () => {
+  card.style.backgroundColor = '#fff';
+});
+
+  </script>  
+</body>
+</html>
